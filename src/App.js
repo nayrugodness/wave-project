@@ -6,7 +6,7 @@ const App = () => {
   /**
    * Create a variable here that holds the contract address after you deploy!
    */
-  const contractAddress = "0xd5f08a0ae197482FA808cE84E00E97d940dBD26E";;
+  const contractAddress = "0x4F60e10A313cB1741A432F351E996CF8D47E8Ce3";;
 
   const checkIfWalletIsConnected = async () => {
     try {
