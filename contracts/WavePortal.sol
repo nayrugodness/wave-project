@@ -28,7 +28,7 @@ contract WavePortal {
      */
     Wave[] waves;
 
-    constructor payable() {
+    constructor () payable{
         console.log("I AM SMART CONTRACT. POG.");
     }
 
