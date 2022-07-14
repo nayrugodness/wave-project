@@ -3,6 +3,10 @@ import "./App.css";
 
 const App = () => {
   const [currentAccount, setCurrentAccount] = useState("");
+  /**
+   * Create a variable here that holds the contract address after you deploy!
+   */
+  const contractAddress = "0xd5f08a0ae197482FA808cE84E00E97d940dBD26E";;
 
   const checkIfWalletIsConnected = async () => {
     try {
