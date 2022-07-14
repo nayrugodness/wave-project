@@ -5,6 +5,10 @@ import abi from "./utils/WavePortal.json";
 
 const App = () => {
   const [currentAccount, setCurrentAccount] = useState("");
+   /*
+   * All state property to store all waves
+   */
+  const [allWaves, setAllWaves] = useState([]);
   /**
    * Create a variable here that holds the contract address after you deploy!
    */
